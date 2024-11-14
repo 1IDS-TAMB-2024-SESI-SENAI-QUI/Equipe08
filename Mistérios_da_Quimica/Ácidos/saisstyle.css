@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:arial;
+    
+}
+body{
+    font-family: arial;
+    align-items: center;
+}
+
+h1{
+    background-color: #e7e7e7;
+    background-color: #edc9ed;
+    color: black;
+    padding: inherit;
+    text-align: center;
+    font-family: georgia;
+    padding-bottom: 0.6%;
+    padding-top: 0.6%;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    background-color: #e7e7e7;
+    background-color: #d8a7d8;
+    color: black;
+    padding: 0;
+    text-align: center;
+    font-family: georgia;
+    padding-bottom: 0.6%;
+    padding-top: 0.6%;
+}
+.imagem{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 20%;
+}
+.direita{float: right;}
+
+nav{
+	text-align:center;
+    background-color: #9a3a97;
+	font-size:20px;
+    font-family: Courier;
+}
+
+nav li{
+    display: inline-block;
+		padding-left:30px;
+}
+
+nav li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: #d4a9d8;
+    border-radius: 0.8%;
+}
+
+.menu{
+    background-color: #e7e7e7;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 2px black;
+}
+
+.dropdown-menu a:hover{
+    background-color: #d4a9d8;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+    background-color: #e7e7e7;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* título*/
+
+.content{
+    background-color: #fdf3ff;
+    padding: 2%;
+    border-radius: 40px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ p{
+    padding-top: 0%;
+    font-size: 115%;
+    font-family: arial;
+    text-align: justify;
+}
+article{
+    text-align: center;
+	top: 50%; left: 50%; 
+	display: flex;
+	justify-content: center;
+	display: grid;
+}
+.card{
+    height: 300px;
+    width: 18%;
+    float: left;
+    background-color: #e7e7e7;
+    border-radius: 0.5%;
+    margin: 1.4%;
+    box-shadow: 2px 2px 10px black;
+}
+.card:hover{
+    box-shadow: 6px 6px 14px black;
+}
+.image{
+    border-top-right-radius: 0.5%;
+    border-top-left-radius: 0.5%;
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.image img{
+    width: 100%;
+    border-radius: 0.5%;
+}
+
+.des{
+    text-align: center;
+    padding: 0.4%;
+}
+button{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: white;
+    border: 0.2% solid black;
+    padding: 0.5%;
+    border-radius: 0.5%;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.tudo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    margin-left:15%;
+}
+
+.center h2{
+    font-size: 180%;
+    text-align: center;
+    font-family: arial;
+}
+
+.center p{
+    font-size: 150%;
+    text-align: center;
+}
+
+/*footer*/
+
+footer{
+    background-color: #9a3a97;
+    color: whitesmoke;
+ }
+
+ footer li {
+    list-style-type: none;
+    font-weight: 200;
+  }
+ footer a {
+    text-decoration: none;
+    color: whitesmoke
+ }
+
+ footer .container{display: flex; padding-left: 2%;}
+
+ footer .container ul{
+    width: 24%;
+ }
+
+ footer .container h3{
+    padding-top: 5%;
+    margin-bottom: 16px;
+    font-family: arial;
+    font-size: 115%;
+ }
+
+ .redes-sociais i {
+    font-size: 24px; 
+}
+
+ footer .container ul > p{
+    margin-bottom: 40px;
+ }
+
+ footer .container li{
+    margin: 5% 0;
+    font-size: 115%;
+ }
+
+ footer.container a{
+    color: white;
+ }
+
+ footer ul h3 {
+    font-size: 110%; /* Ajuste o tamanho do título "Nos Contate" */
+}
+
+footer ul p {
+    font-size: 115%; /* Ajuste o tamanho do texto dentro dos parágrafos */
+}
+
+footer ul li a {
+    font-size: 115%; /* Ajuste o tamanho dos links */
+}
+
+.acidos_card{
+    background-color: #f7f6f6;
+    padding: 2%;
+    border-radius: 40px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1200px;
+    height: 750px;
+ }
